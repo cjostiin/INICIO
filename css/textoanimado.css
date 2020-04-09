@@ -1,0 +1,37 @@
+.hola{
+	display: flex;
+	width: 300px;
+	height: 40px;
+	color: BLACK;
+	font-size: 40px;
+	line-height: 40px;
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: hidden;
+}
+ol{
+	list-style: none;
+	padding-left: 10px;
+	animation:cambiar 8s infinite;
+
+}
+ol,p{
+	margin: 0;
+
+}
+@keyframes cambiar{
+	0%{
+		margin-top: 0;
+	}
+	70%{margin-top: 0;}
+	25%{margin-top: -40px}
+	55%{margin-top: -80PX;}
+	80%{margin-top: -80px;}
+	85%{margin top: -40px;}
+	95%{margin top: -40px;}
+	100%{margin-top: 0;}
+}

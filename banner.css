@@ -1,0 +1,50 @@
+.banner{
+	width: 700px;
+	/*ancho* y alto al igual que dimensiones y color*/
+	height: 300px;
+	border:3px solid red;
+	margin: auto;
+
+	background-size: : 100% 100%;/*tamaño de imagen en cuadro*/
+	
+	animation-name: banner;/*animacion*/
+	
+
+	
+	animation:banner 8s infinite;/*tiempo de cada imagen con animacion 
+	como se alternan*/
+	animation-direction: alternate;
+
+
+}
+@keyframes banner{
+	0%,30%{
+		background-image: url(1.jpg);/*imagen de la primera transicion*/
+		opacity: 1;
+	}
+	31%,34%{
+		/*opacidad a la hora de hacer transicion*/
+		opacity: 0.1;
+	}
+	35%,65%{
+		background-image: url(2.jpg);/*imagen de la segunda transicion*/
+		opacity: 1;
+	}
+	66%,69%;{
+	opacity:0.8;
+}
+	70%,100%{
+		opacity: 1;
+		background-image: url(3.jpg);/*imagen de la tercera transicion*/
+	}
+}
+h1 {  
+	/*codigo para degradado de texto */
+  font-size: 80px;  
+  background: -webkit-linear-gradient(left top, #00ACC1 , #F5F5F5   );
+  background: linear-gradient(to bottom right, #F5F5F5   , #00ACC1 );
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;  
+  
+
+} 

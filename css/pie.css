@@ -1,0 +1,10 @@
+.footer-wrapper {
+background: #8F9493; /*Color de fondo del pie de página*/
+padding-top: 10px; /*Altura del pie de página*/
+padding-bottom: 10px; /*Altura del pie de página*/
+width: 100%;
+text-align: center;
+font: normal normal 10px Arial; /*Tipografía y Tamaño*/
+color: #ffffff; /*Color del texto del pie de página*/
+text-transform: uppercase; /*Esta línea de código es para poner las letras en mayúsculas */
+letter-spacing: 1px; /*Espacio entre letras*/
